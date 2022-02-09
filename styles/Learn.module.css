@@ -1,0 +1,49 @@
+.learn{
+      height: 560px;
+      display: flex;
+}
+
+.learnItem{
+      background-color: white;
+      width: 30%;
+      height: 290px;
+      margin-left: 16%;
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+      padding: 38px;
+}
+
+.learnItem>:first-child{
+      color: gray;
+      text-transform: uppercase;
+      font-size: 22px;
+      letter-spacing: .6px;
+}
+
+.learnItem>:nth-child(2){
+      margin-bottom: 50px;
+      font-size: 30px;
+      margin-top: 10px;
+}
+.learnItem>:nth-child(3){
+     border: none;
+     padding: 12px;
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+     color: white;
+     font-size: 20px;
+}
+
+
+@media screen and (max-width: 766px) {
+      .learnItem { 
+            width: 300px;
+            min-height: 320px;
+            margin-left: 13%;
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+      }
+      
+}

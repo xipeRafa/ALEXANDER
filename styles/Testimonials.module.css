@@ -47,8 +47,10 @@
 }
 
 .username {
-  font-weight: bold;
-  color: #555;
+  font-weight: normal;
+  font-style: italic;
+  font-family: serif;
+  font-size: 28px;
 }
 
 .jobTitle {

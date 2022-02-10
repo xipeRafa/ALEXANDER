@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../styles/Learn.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Learn = () => {
   return (
@@ -19,7 +20,7 @@ const Learn = () => {
         <h2>
           LEARN WITH <br /> FREEDIVING COMPANY
         </h2>
-        <button>Contact</button>
+        <Link href="/contact">CONTACT US</Link>
       </div>
     </div>
   );

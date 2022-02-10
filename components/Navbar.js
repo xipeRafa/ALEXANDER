@@ -15,10 +15,10 @@ const Navbar = () => {
           <Link href="/">HOME</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/design">ABOUT US</Link>
+          <Link href="/abouts">ABOUT US</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/development">FREE DIVE</Link>
+          <Link href="/freedive">FREE DIVE</Link>
         </li>
         <li className={style.logo}>
         <Image
@@ -50,10 +50,10 @@ const Navbar = () => {
           <Link href="/">HOME</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/design">ABOUT US</Link>
+          <Link href="/abouts">ABOUT US</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/development">FREE DIVE</Link>
+          <Link href="/freedive">FREE DIVE</Link>
         </li>
         <li className={style.menuItem}>
           <Link href="/products/production">UW PRODUCTION</Link>

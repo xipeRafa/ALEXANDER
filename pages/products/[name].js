@@ -8,11 +8,8 @@ const Product = ({ product }) => {
   return (
     <div className={style.container}>
       <Head>
-        <title>Digital Design for Your Product</title>
-        <meta
-          name="description"
-          content="Web Design, App Development, Content Creation Agency Near NY"
-        />
+        <title>FREEDIVING COMPANY</title>
+        <meta name="description" content="Web Design, App Development, Content Creation Agency Near NY" />
       </Head>
       <div className={style.cardL}>
         {product.images.map((img) => (

@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/abouts">ABOUT US</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/freedive">FREE DIVE</Link>
+          <Link href="/freedive">FREEDIVE</Link>
         </li>
         <li className={style.logo}>
         <Image
@@ -29,10 +29,10 @@ const Navbar = () => {
         />
         </li> 
         <li className={style.listItem}>
-          <Link href="/products/production">UW PRODUCTION</Link>
+          <Link href="/products/production">Underwater Production</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/photography">TOURS</Link>
+          <Link href="/products/photography">Expeditions</Link>
         </li>
         <li className={style.listItem}>
           <Link href="/contact">CONTACT US</Link>
@@ -53,13 +53,13 @@ const Navbar = () => {
           <Link href="/abouts">ABOUT US</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/freedive">FREE DIVE</Link>
+          <Link href="/freedive">FREEDIVE</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/production">UW PRODUCTION</Link>
+          <Link href="/products/production">Underwater Production</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/photography">TOURS</Link>
+          <Link href="/products/photography">Expeditions</Link>
         </li>
         <li className={style.menuItem}>
           <Link href="/contact">CONTACT US</Link>

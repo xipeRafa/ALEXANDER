@@ -11,33 +11,46 @@ const Navbar = () => {
     <div className={style.container}>
       
       <ul className={style.list}>
-        <li className={style.listItem} style={{paddingLeft:'30px'}}>
+        <div>
+        <li className={style.listItem} >
           <Link href="/">HOME</Link>
         </li>
-        <li className={style.listItem}>
+        <li className={style.listItem} >
           <Link href="/abouts">ABOUT US</Link>
         </li>
-        <li className={style.listItem}>
+        <li className={style.listItem} >
           <Link href="/freedive">FREEDIVING</Link>
         </li>
-        <li className={style.logo}>
+        </div>
+
+
+<div>
+        <li className={style.logo} >
         <Image
-          src={process.env.NEXT_PUBLIC_URL + "/img/Avocado.png"}
-          width="100px"
-          height="50px"
+          src={process.env.NEXT_PUBLIC_URL + "/img/whitelogo.png"}
+          width="280px"
+          height="60px"
           alt=""
         />
         </li> 
+        </div>
+
+
+        <div>
         <li className={style.listItem}>
           <Link href="/products/production">EXPEDITIONS</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/photography">UNDERWATER PRODUCTION  </Link>
+          <Link href="/products/photography">UNDERWATER PRODUCTION</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/contact">CONTACT US</Link>
+          <Link href="/contact">CONTACT</Link>
         </li>
+        </div>
       </ul>
+
+
+
 
       <div className={style.hamburger} onClick={() => setOpen(!open)}>
         <div className={style.line} />

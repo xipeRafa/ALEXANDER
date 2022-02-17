@@ -6,6 +6,9 @@
   position: relative;
   overflow: hidden;
 }
+.title{
+  color: transparent;
+}
 
 .form {
   width: 500px;

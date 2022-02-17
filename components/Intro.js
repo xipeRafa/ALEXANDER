@@ -12,6 +12,10 @@ const Intro = () => {
           objectFit="cover"
           alt=""
         />
+        <div className={style.title}>
+          <h1>Freediving <br />Expeditions & Production</h1>
+          <h3>La Ventana, Baja California Sur</h3>
+        </div>
       </div>
 
     </div>

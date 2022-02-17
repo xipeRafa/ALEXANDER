@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} style={{paddingTop:'100px'}}>
       <div className={style.card1}>
         <span>
           Desde el año 2013 Pranamaya ha liderado el camino de la apnea en la

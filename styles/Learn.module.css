@@ -5,8 +5,8 @@
 
 .learnItem{
       background-color: white;
-      width: 30%;
-      height: 290px;
+      width: 28%;
+      height: 380px;
       margin-left: 16%;
       margin-top: 90px;
       display: flex;
@@ -19,10 +19,12 @@
       text-transform: uppercase;
       font-size: 22px;
       letter-spacing: .6px;
+      margin-top: 20px;
+      margin-bottom: 20px;
 }
 
 .learnItem>:nth-child(2){
-      margin-bottom: 50px;
+      margin-bottom: 80px;
       font-size: 30px;
       margin-top: 10px;
 }
@@ -36,7 +38,7 @@
 }
 
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 769px) {
       .learnItem { 
             width: 300px;
             min-height: 320px;

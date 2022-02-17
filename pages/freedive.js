@@ -3,7 +3,9 @@ import Learn from "../components/Learn";
 
 const freedive = () => {
   return (
-    <div><Learn /> </div>
+    <div style={{paddingTop:'100px'}}>
+      <Learn /> 
+    </div>
   )
 }
 
